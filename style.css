@@ -103,6 +103,7 @@ ul, ol{
     height: 100%;
     transform: scale(0);
     transition: .3s ease;
+    border-radius: 25px;
 }
 .overlay2 {
     position: absolute;
@@ -115,6 +116,7 @@ ul, ol{
     height: 100%;
     transform: scale(0);
     transition: .3s ease;
+    border-radius: 25px;
 }
 .overlay3 {
     position: absolute;
@@ -127,6 +129,7 @@ ul, ol{
     height: 100%;
     transform: scale(0);
     transition: .3s ease;
+    border-radius: 25px;
 }
 
 /* Descendant Combinator */
