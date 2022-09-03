@@ -19,6 +19,7 @@ a:hover{
 body{
     background-color: rgb(126, 187, 98);
 }
+/* Class selectors */
 .bg2{
     background-color: #dda50b;
 }
@@ -43,6 +44,8 @@ h4{
 strong{
     color: rgb(233, 229, 15);
 }
+
+/* Grouping Selector */
 p, li{
     color: aliceblue;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -69,6 +72,8 @@ ul, ol{
     padding: 1%;
     text-align: center;
 }
+
+/* id selector */
 #menu{
     border-style: none;
     display: inline;
@@ -141,4 +146,21 @@ ul, ol{
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.foot.footer{
+    font-size: smaller;
+    border-style: none;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid;
+    background-color: #3b2929;
+}
+.foot.footer:hover{
+    background-color: black;
+    color: white;
+}
+
+a.nostyle{
+    text-decoration: none;
 }
