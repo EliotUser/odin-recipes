@@ -86,6 +86,7 @@ ul, ol{
 .container {
     position: relative;
     width: 100%;
+    display: flex;
 }
 
 .image {
@@ -104,6 +105,7 @@ ul, ol{
     transform: scale(0);
     transition: .3s ease;
     border-radius: 25px;
+    flex: 1;
 }
 .overlay2 {
     position: absolute;
@@ -117,6 +119,7 @@ ul, ol{
     transform: scale(0);
     transition: .3s ease;
     border-radius: 25px;
+    flex: 1;
 }
 .overlay3 {
     position: absolute;
@@ -130,17 +133,21 @@ ul, ol{
     transform: scale(0);
     transition: .3s ease;
     border-radius: 25px;
+    flex: 1;
 }
 
 /* Descendant Combinator */
 .container:hover .overlay1{
     transform: scale(1);
+    flex: 1;
 }
 .container:hover .overlay2{
     transform: scale(1);
+    flex: 1;
 }
 .container:hover .overlay3{
     transform: scale(1);
+    flex: 1;
 }
 .text {
     color: rgb(255, 255, 255);
